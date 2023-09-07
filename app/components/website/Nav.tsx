@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Nav() {
   return (
@@ -12,22 +13,22 @@ export default function Nav() {
         <div className="container">
           <div className="navbar-brand">
             <span className="navbar-logo">
-              <a href="https://mobiri.se">
+              <Link href="/">
                 <Image
                   width={50}
                   height={50}
-                  src="/assets/images/scoop-mockups-6.png"
-                  alt="Mobirise Website Builder"
+                  src="/assets/images/facets-logo.png"
+                  alt="Facets Logo"
                 />
-              </a>
+              </Link>
             </span>
             <span className="navbar-caption-wrap">
-              <a
+              <Link
+                href="/"
                 className="navbar-caption text-black text-primary display-4"
-                href="index.html"
               >
                 Facets
-              </a>
+              </Link>
             </span>
           </div>
           <button
@@ -51,39 +52,39 @@ export default function Nav() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav nav-dropdown" data-app-modern-menu="true">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link link text-black text-primary display-4"
-                  href="product.html"
+                  href="/product"
                 >
                   Product
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link link text-black text-primary display-4"
-                  href="thejourney.html"
+                  href="/thejourney"
                 >
                   The Journey
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link link text-black text-primary display-4"
-                  href="aboutus.html"
+                  href="/about"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
             </ul>
 
             <div className="navbar-buttons mbr-section-btn">
-              <a
+              <Link
                 className="btn btn-primary display-4"
                 href="https://forms.gle/RkxRxAJQTJZLVKeF7"
               >
                 Waitlist
-              </a>
+              </Link>
             </div>
           </div>
         </div>

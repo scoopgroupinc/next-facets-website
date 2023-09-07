@@ -1,3 +1,4 @@
+import Script from 'next/script';
 import 'public/assets/web/assets/mobirise-icons2/mobirise2.css';
 import 'public/assets/bootstrap/css/bootstrap.min.css';
 import 'public/assets/bootstrap/css/bootstrap-grid.min.css';
@@ -8,7 +9,7 @@ import 'public/assets/socicon/css/styles.css';
 import 'public/assets/theme/css/style.css';
 import 'public/assets/mobirise/css/mbr-additional.css';
 import 'public/assets/mobirise/css/mbr-additional.css';
-import './globals.css';
+
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
@@ -27,6 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <Script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></Script>
+      <Script src="/assets/smoothscroll/smooth-scroll.js"></Script>
+      <Script src="/assets/ytplayer/index.js"></Script>
+      <Script src="/assets/dropdown/js/navbar-dropdown.js"></Script>
+      <Script src="/assets/theme/js/Script.js"></Script>
     </html>
   );
 }

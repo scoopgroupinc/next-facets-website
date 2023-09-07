@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Nav from '../components/website/Nav';
+import Footer from '../components/website/Footer';
 
 export default function About() {
   return (
@@ -14,8 +15,8 @@ export default function About() {
           <div className="row mb-4 justify-content-center">
             <div className="col-12 col-md-8">
               <Image
-                width={500}
-                height={500}
+                width={728}
+                height={409.5}
                 className="w-100"
                 src="/assets/images/facets-horizontal-2.png"
                 alt="Mobirise Website Builder"
@@ -72,10 +73,10 @@ export default function About() {
                     <div className="user_image">
                       <div className="item-wrapper position-relative">
                         <Image
-                          width={500}
-                          height={500}
+                          width={200}
+                          height={200}
                           src="/assets/images/natalie-pan.png"
-                          alt="Mobirise Website Builder"
+                          alt="Natalie Pan"
                         />
                       </div>
                     </div>
@@ -107,10 +108,10 @@ export default function About() {
                     <div className="user_image">
                       <div className="item-wrapper position-relative">
                         <Image
-                          width={500}
-                          height={500}
+                          width={200}
+                          height={200}
                           src="/assets/images/caroarriagaphoto.png"
-                          alt="Mobirise Website Builder"
+                          alt="Carolina Arriaga"
                         />
                       </div>
                     </div>
@@ -140,10 +141,10 @@ export default function About() {
                     <div className="user_image">
                       <div className="item-wrapper position-relative">
                         <Image
-                          width={500}
-                          height={500}
+                          width={200}
+                          height={200}
                           src="/assets/images/img-9264.jpeg"
-                          alt="Mobirise Website Builder"
+                          alt="Keta Bagshvili"
                         />
                       </div>
                     </div>
@@ -307,6 +308,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

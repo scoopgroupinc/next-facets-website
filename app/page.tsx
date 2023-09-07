@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import Nav from './components/website/Nav';
+import Footer from './components/website/Footer';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -30,10 +32,9 @@ export default function Home() {
           <div className="row mt-4">
             <div className="item features-image сol-12 col-md-6 col-lg-6">
               <div className="item-wrapper">
-                <div className="item-img p-2">
-                  <Image
-                    width={500}
-                    height={500}
+                <div className="item-img">
+                  <img
+                    className="p-2"
                     src="/assets/images/1-1.png"
                     alt="Mobirise Website Builder"
                   />
@@ -42,10 +43,9 @@ export default function Home() {
             </div>
             <div className="item features-image сol-12 col-md-6 col-lg-6">
               <div className="item-wrapper">
-                <div className="item-img p-2">
-                  <Image
-                    width={500}
-                    height={500}
+                <div className="item-img">
+                  <img
+                    className="p-2"
                     src="/assets/images/3.png"
                     alt="Mobirise Website Builder"
                   />
@@ -54,10 +54,9 @@ export default function Home() {
             </div>
             <div className="item features-image сol-12 col-md-6 col-lg-6">
               <div className="item-wrapper">
-                <div className="item-img p-2">
-                  <Image
-                    width={500}
-                    height={500}
+                <div className="item-img">
+                  <img
+                    className="p-2"
                     src="/assets/images/scoop-mockups-8.png"
                     alt="Mobirise Website Builder"
                   />
@@ -66,10 +65,9 @@ export default function Home() {
             </div>
             <div className="item features-image сol-12 col-md-6 col-lg-6">
               <div className="item-wrapper">
-                <div className="item-img p-2">
-                  <Image
-                    width={500}
-                    height={500}
+                <div className="item-img">
+                  <img
+                    className="p-2"
                     src="/assets/images/scoop-mockups-7.png"
                     alt="Mobirise Website Builder"
                     title=""
@@ -85,9 +83,7 @@ export default function Home() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-12 col-md-12 col-lg-5 image-wrapper">
-              <Image
-                width={500}
-                height={500}
+              <img
                 className="w-100"
                 src="/assets/images/scoop-mockups-2.png"
                 alt="Mobirise Website Builder"
@@ -104,12 +100,12 @@ export default function Home() {
                   quirks and flaws!) and become available to embrace others.
                 </p>
                 <div className="mbr-section-btn mt-3">
-                  <a
+                  <Link
                     className="btn btn-lg btn-primary display-7"
-                    href="product.html"
+                    href="/product"
                   >
                     Learn About the Product
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -121,9 +117,7 @@ export default function Home() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-12 col-md-12 col-lg-5 image-wrapper">
-              <Image
-                width={500}
-                height={500}
+              <img
                 className="w-100"
                 src="/assets/images/5.png"
                 alt="Mobirise Website Builder"
@@ -150,9 +144,7 @@ export default function Home() {
           <div className="row justify-content-center">
             <div className="col-12 col-md-12 col-lg-5 image-wrapper relative">
               <div className="relative">
-                <Image
-                  width={500}
-                  height={500}
+                <img
                   className="w-100"
                   src="/assets/images/scoop-mockups.png"
                   alt="Mobirise Website Builder"
@@ -170,12 +162,12 @@ export default function Home() {
                   humans.
                 </p>
                 <div className="mbr-section-btn align-left mt-3">
-                  <a
+                  <Link
                     className="btn btn-primary display-7"
                     href="https://forms.gle/RkxRxAJQTJZLVKeF7"
                   >
                     Join the waitlist
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -195,16 +187,10 @@ export default function Home() {
               <div className="card-wrapper">
                 <div className="row">
                   <div className="col-12 col-md-12 col-lg-5 image-wrapper">
-                    <Image
-                      width={500}
-                      height={500}
+                    <img
                       className="w-100"
-                      style={{
-                        borderTopLeftRadius: 0,
-                        borderBottomLeftRadius: 0,
-                      }}
                       src="/assets/images/scoop-mockups-4.png"
-                      alt="Mobirise Website Builder"
+                      alt="Man clasping the hands of his partner"
                     />
                   </div>
                   <div className="col-12 col-lg col-md-12">
@@ -218,12 +204,12 @@ export default function Home() {
                         <br />
                       </p>
                       <div className="mbr-section-btn mt-3">
-                        <a
+                        <Link
                           className="btn btn-lg btn-primary display-7"
-                          href="aboutus.html"
+                          href="/about"
                         >
                           About Us
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -233,93 +219,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <section
-        // data-bs-version="5.1"
-        className="footer3 cid-tOWHoKY82E"
-        // once="footers"
-        id="footer3-r"
-      >
-        <div className="container">
-          <div className="media-container-row align-center mbr-white">
-            <div className="row row-links">
-              <ul className="foot-menu">
-                <li className="foot-menu-item mbr-fonts-style display-7">
-                  <a href="product.html" className="text-primary">
-                    Product
-                  </a>
-                </li>
-                <li className="foot-menu-item mbr-fonts-style display-7">
-                  <a href="thejourney.html" className="text-primary">
-                    The Journey
-                  </a>
-                </li>
-                <li className="foot-menu-item mbr-fonts-style display-7">
-                  <a href="aboutus.html" className="text-primary">
-                    About Us
-                  </a>
-                </li>
-                <li className="foot-menu-item mbr-fonts-style display-7">
-                  Privacy
-                </li>
-                <li className="foot-menu-item mbr-fonts-style display-7">
-                  Terms
-                </li>
-              </ul>
-            </div>
-            <div className="row social-row">
-              <div className="social-list align-right pb-2">
-                <div className="soc-item">
-                  <a href="https://twitter.com/mobirise" target="_blank">
-                    <span className="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
-                  </a>
-                </div>
-                <div className="soc-item">
-                  <a
-                    href="https://www.facebook.com/pages/Mobirise/1616226671953247"
-                    target="_blank"
-                  >
-                    <span className="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
-                  </a>
-                </div>
-                <div className="soc-item">
-                  <a href="https://www.youtube.com/c/mobirise" target="_blank">
-                    <span className="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
-                  </a>
-                </div>
-                <div className="soc-item">
-                  <a href="https://instagram.com/mobirise" target="_blank">
-                    <span className="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
-                  </a>
-                </div>
-                <div className="soc-item">
-                  <a
-                    href="https://plus.google.com/u/0/+Mobirise"
-                    target="_blank"
-                  >
-                    <span className="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
-                  </a>
-                </div>
-                <div className="soc-item">
-                  <a href="https://www.behance.net/Mobirise" target="_blank">
-                    <span className="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="row row-copirayt">
-              <p className="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
-                © Copyright 2023 Facets. All Rights Reserved.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script src="/assets/smoothscroll/smooth-scroll.js"></script>
-      <script src="/assets/ytplayer/index.js"></script>
-      <script src="/assets/dropdown/js/navbar-dropdown.js"></script>
-      <script src="/assets/theme/js/script.js"></script> */}
+      <Footer />
     </>
   );
 }
