@@ -1,113 +1,325 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import Nav from './components/website/Nav';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+      <Nav />
+      <section
+        className="header09 cid-tOWOwM1Bor mbr-fullscreen"
+        id="header09-y"
+      >
+        <div className="container">
+          <div className="row">
+            <div className="content-wrap col-12 col-md-8">
+              <h1 className="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
+                <strong>True Love Starts with Understanding</strong>
+              </h1>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <section className="gallery1 cid-tOVG061nSP" id="gallery1-b">
+        <div className="container">
+          <div className="mbr-section-head">
+            <h4 className="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+              <strong>We&#39;re Facets</strong>
+            </h4>
+          </div>
+          <div className="row mt-4">
+            <div className="item features-image сol-12 col-md-6 col-lg-6">
+              <div className="item-wrapper">
+                <div className="item-img p-2">
+                  <Image
+                    width={500}
+                    height={500}
+                    src="/assets/images/1-1.png"
+                    alt="Mobirise Website Builder"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="item features-image сol-12 col-md-6 col-lg-6">
+              <div className="item-wrapper">
+                <div className="item-img p-2">
+                  <Image
+                    width={500}
+                    height={500}
+                    src="/assets/images/3.png"
+                    alt="Mobirise Website Builder"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="item features-image сol-12 col-md-6 col-lg-6">
+              <div className="item-wrapper">
+                <div className="item-img p-2">
+                  <Image
+                    width={500}
+                    height={500}
+                    src="/assets/images/scoop-mockups-8.png"
+                    alt="Mobirise Website Builder"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="item features-image сol-12 col-md-6 col-lg-6">
+              <div className="item-wrapper">
+                <div className="item-img p-2">
+                  <Image
+                    width={500}
+                    height={500}
+                    src="/assets/images/scoop-mockups-7.png"
+                    alt="Mobirise Website Builder"
+                    title=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      <section className="article4 cid-tOVo3JpYSu" id="article04-7">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12 col-md-12 col-lg-5 image-wrapper">
+              <Image
+                width={500}
+                height={500}
+                className="w-100"
+                src="/assets/images/scoop-mockups-2.png"
+                alt="Mobirise Website Builder"
+              />
+            </div>
+            <div className="col-12 col-md-12 col-lg">
+              <div className="text-wrapper align-left">
+                <h1 className="mbr-section-title mbr-fonts-style mb-4 display-2">
+                  <strong>Relationships Start From Within</strong>
+                </h1>
+                <p className="mbr-text mbr-fonts-style mb-4 display-7">
+                  Be part of a giving community that&#39;s vulnerable and open
+                  to accepting their whole selves first (yes, with all your
+                  quirks and flaws!) and become available to embrace others.
+                </p>
+                <div className="mbr-section-btn mt-3">
+                  <a
+                    className="btn btn-lg btn-primary display-7"
+                    href="product.html"
+                  >
+                    Learn About the Product
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+      <section className="article2 cid-tOVo4G5Bbt" id="article02-8">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12 col-md-12 col-lg-5 image-wrapper">
+              <Image
+                width={500}
+                height={500}
+                className="w-100"
+                src="/assets/images/5.png"
+                alt="Mobirise Website Builder"
+              />
+            </div>
+            <div className="col-12 col-md-12 col-lg">
+              <div className="text-wrapper align-left">
+                <h1 className="mbr-section-title mbr-fonts-style mb-4 display-2">
+                  <strong>Show Your Facets.</strong>
+                </h1>
+                <p className="mbr-text align-left mbr-fonts-style mb-4 display-7">
+                  Let your true colors shine by getting feedback from friends,
+                  dates, or people on our community. You&#39;ll be surprised
+                  when you find out your super powers!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
+      <section className="article2 cid-tOVo2VC6Fb" id="article02-6">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12 col-md-12 col-lg-5 image-wrapper relative">
+              <div className="relative">
+                <Image
+                  width={500}
+                  height={500}
+                  className="w-100"
+                  src="/assets/images/scoop-mockups.png"
+                  alt="Mobirise Website Builder"
+                />
+              </div>
+            </div>
+            <div className="col-12 col-md-12 col-lg">
+              <div className="text-wrapper align-left">
+                <h1 className="mbr-section-title mbr-fonts-style mb-4 display-2">
+                  <strong>Your Unique Journey to Love Begins Here</strong>
+                </h1>
+                <p className="mbr-text align-left mbr-fonts-style mb-4 display-7">
+                  Show your facets to the world and unveil your true personality
+                  on your dating profile: no more molds, only beautiful round
+                  humans.
+                </p>
+                <div className="mbr-section-btn align-left mt-3">
+                  <a
+                    className="btn btn-primary display-7"
+                    href="https://forms.gle/RkxRxAJQTJZLVKeF7"
+                  >
+                    Join the waitlist
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+      <section className="article05 cid-tOObPWZW79" id="article05-3">
+        <div
+          className="mbr-overlay"
+          style={{ opacity: 0.6, backgroundColor: 'rgb(178, 67, 80)' }}
+        ></div>
+
+        <div className="container">
+          <div className="row justify-content-center align-items-center">
+            <div className="col-12">
+              <div className="card-wrapper">
+                <div className="row">
+                  <div className="col-12 col-md-12 col-lg-5 image-wrapper">
+                    <Image
+                      width={500}
+                      height={500}
+                      className="w-100"
+                      style={{
+                        borderTopLeftRadius: 0,
+                        borderBottomLeftRadius: 0,
+                      }}
+                      src="/assets/images/scoop-mockups-4.png"
+                      alt="Mobirise Website Builder"
+                    />
+                  </div>
+                  <div className="col-12 col-lg col-md-12">
+                    <div className="text-wrapper align-left">
+                      <h1 className="mbr-section-title mbr-fonts-style mb-4 display-2">
+                        <strong>Our Values</strong>
+                      </h1>
+                      <p className="mbr-text mbr-fonts-style mb-4 display-7">
+                        A long friendship or the first glance to your date can
+                        spark a romantic connection. We help you nurture it.
+                        <br />
+                      </p>
+                      <div className="mbr-section-btn mt-3">
+                        <a
+                          className="btn btn-lg btn-primary display-7"
+                          href="aboutus.html"
+                        >
+                          About Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        // data-bs-version="5.1"
+        className="footer3 cid-tOWHoKY82E"
+        // once="footers"
+        id="footer3-r"
+      >
+        <div className="container">
+          <div className="media-container-row align-center mbr-white">
+            <div className="row row-links">
+              <ul className="foot-menu">
+                <li className="foot-menu-item mbr-fonts-style display-7">
+                  <a href="product.html" className="text-primary">
+                    Product
+                  </a>
+                </li>
+                <li className="foot-menu-item mbr-fonts-style display-7">
+                  <a href="thejourney.html" className="text-primary">
+                    The Journey
+                  </a>
+                </li>
+                <li className="foot-menu-item mbr-fonts-style display-7">
+                  <a href="aboutus.html" className="text-primary">
+                    About Us
+                  </a>
+                </li>
+                <li className="foot-menu-item mbr-fonts-style display-7">
+                  Privacy
+                </li>
+                <li className="foot-menu-item mbr-fonts-style display-7">
+                  Terms
+                </li>
+              </ul>
+            </div>
+            <div className="row social-row">
+              <div className="social-list align-right pb-2">
+                <div className="soc-item">
+                  <a href="https://twitter.com/mobirise" target="_blank">
+                    <span className="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                  </a>
+                </div>
+                <div className="soc-item">
+                  <a
+                    href="https://www.facebook.com/pages/Mobirise/1616226671953247"
+                    target="_blank"
+                  >
+                    <span className="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                  </a>
+                </div>
+                <div className="soc-item">
+                  <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                    <span className="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                  </a>
+                </div>
+                <div className="soc-item">
+                  <a href="https://instagram.com/mobirise" target="_blank">
+                    <span className="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                  </a>
+                </div>
+                <div className="soc-item">
+                  <a
+                    href="https://plus.google.com/u/0/+Mobirise"
+                    target="_blank"
+                  >
+                    <span className="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
+                  </a>
+                </div>
+                <div className="soc-item">
+                  <a href="https://www.behance.net/Mobirise" target="_blank">
+                    <span className="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="row row-copirayt">
+              <p className="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
+                © Copyright 2023 Facets. All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="/assets/smoothscroll/smooth-scroll.js"></script>
+      <script src="/assets/ytplayer/index.js"></script>
+      <script src="/assets/dropdown/js/navbar-dropdown.js"></script>
+      <script src="/assets/theme/js/script.js"></script> */}
+    </>
+  );
 }
