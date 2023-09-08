@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import Nav from '../components/website/Nav';
-import Footer from '../components/website/Footer';
+import Nav from '../../components/website/Nav';
+import Footer from '../../components/website/Footer';
 import Link from 'next/link';
 
 export default function Home() {
