@@ -32,7 +32,7 @@ export default function Home() {
                 </div>
                 <div className="p-0 col-12 col-lg-6 md-pb">
                     <div className="image-wrapper">
-                        <Image src="/assets/images/untitled-design.png" alt="Mobirise Website Builder"/>
+                        <img src="/assets/images/untitled-design.png" alt="Mobirise Website Builder"/>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@ export default function Home() {
             <div className="item features-image mb-4 col-6 col-md-4 col-lg-3 active">
               <div className="item-wrapper">
                 <div className="item-img mb-3">
-                  <Image src="/assets/images/26.png" alt="Mobirise Website Builder" title="" data-slide-to="1" data-bs-slide-to="1"/>
+                  <img src="/assets/images/26.png" alt="Mobirise Website Builder" title="" data-slide-to="1" data-bs-slide-to="1"/>
                 </div>
                 <div className="item-content align-left">
                   <h5 className="item-title mbr-fonts-style mb-3 display-7"><strong>Photo &amp; Prompt Rating</strong></h5>
@@ -65,7 +65,7 @@ export default function Home() {
             <div className="item features-image mb-4 col-6 col-md-4 col-lg-3">
               <div className="item-wrapper">
                 <div className="item-img mb-3">
-                  <Image src="/assets/images/27.png" alt="Mobirise Website Builder" title="" data-slide-to="2" data-bs-slide-to="2"/>
+                  <img src="/assets/images/27.png" alt="Mobirise Website Builder" title="" data-slide-to="2" data-bs-slide-to="2"/>
                 </div>
                 <div className="item-content align-left">
                   <h5 className="item-title mbr-fonts-style mb-3 display-7">
@@ -80,13 +80,13 @@ export default function Home() {
             <div className="item features-image mb-4 col-6 col-md-4 col-lg-3">
               <div className="item-wrapper">
                 <div className="item-img mb-3">
-                  <Image src="/assets/images/scoop-mockups-12.png" alt="Mobirise Website Builder" title="" data-slide-to="3" data-bs-slide-to="3"/>
+                  <img src="/assets/images/scoop-mockups-12.png" alt="Mobirise Website Builder" title="" data-slide-to="3" data-bs-slide-to="3"/>
                 </div>
                 <div className="item-content align-left">
                   <h5 className="item-title mbr-fonts-style mb-3 display-7">
                     <strong>Get specific feedback</strong></h5>
                   <h6 className="item-subtitle mbr-fonts-style mb-3 display-7">
-                    Understand what works <br />and what doesn&#39t</h6>
+                    Understand what works <br />and what doesn&#39;t</h6>
                   
                 </div>
                 
@@ -96,7 +96,7 @@ export default function Home() {
             <div className="item features-image mb-4 col-6 col-md-4 col-lg-3">
               <div className="item-wrapper">
                 <div className="item-img mb-3">
-                  <Image src="/assets/images/29.png" alt="Mobirise Website Builder" title="" data-slide-to="5" data-bs-slide-to="5"/>
+                  <img src="/assets/images/29.png" alt="Mobirise Website Builder" title="" data-slide-to="5" data-bs-slide-to="5"/>
                 </div>
                 <div className="item-content align-left">
                   <h5 className="item-title mbr-fonts-style mb-3 display-7"><strong>Data-driven</strong></h5>
@@ -118,7 +118,7 @@ export default function Home() {
               <h1 className="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1"><strong>Mindful Dating</strong></h1>
               
               <p className="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Reduce burnout and anxiety with our carefully crafted snippet-based curriculum created by seasoned psychologists.&nbsp; &nbsp;</p>
-              <div className="mbr-section-btn"><Link className="btn btn-white-outline display-7" href="/product#corepillars">Learn more</Link></div>
+              <div className="mbr-section-btn"><a className="btn btn-white-outline display-7" href="/product#corepillars">Learn more</a></div>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@ export default function Home() {
             <div className="col-12 content-head">
               <div className="mbr-section-head mb-5">
                 <h4 className="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                  <strong>You&#39ll learn</strong></h4>
+                  <strong>You&#39;ll learn</strong></h4>
                 
                 
               </div>
@@ -140,7 +140,7 @@ export default function Home() {
             <div className="item features-image col-12 col-md-6 col-lg-3 active">
               <div className="item-wrapper">
                 <div className="item-img">
-                  <Image src="/assets/images/scoop-mockups-10.png" alt="Mobirise Website Builder" data-slide-to="0" data-bs-slide-to="0"/>
+                  <img src="/assets/images/scoop-mockups-10.png" alt="Mobirise Website Builder" data-slide-to="0" data-bs-slide-to="0"/>
                 </div>
                 <div className="item-content">
                   <h5 className="item-title mbr-fonts-style display-5">
@@ -155,7 +155,7 @@ export default function Home() {
             </div><div className="item features-image col-12 col-md-6 col-lg-3">
               <div className="item-wrapper">
                 <div className="item-img">
-                  <Image src="/assets/images/scoop-mockups-11.png" alt="Mobirise Website Builder" data-slide-to="1" data-bs-slide-to="1"/>
+                  <img src="/assets/images/scoop-mockups-11.png" alt="Mobirise Website Builder" data-slide-to="1" data-bs-slide-to="1"/>
                 </div>
                 <div className="item-content">
                   <h5 className="item-title mbr-fonts-style display-5">
@@ -169,7 +169,7 @@ export default function Home() {
             </div><div className="item features-image col-12 col-md-6 col-lg-3">
               <div className="item-wrapper">
                 <div className="item-img">
-                  <Image src="/assets/images/10.png" alt="Mobirise Website Builder" data-slide-to="2" data-bs-slide-to="2"/>
+                  <img src="/assets/images/10.png" alt="Mobirise Website Builder" data-slide-to="2" data-bs-slide-to="2"/>
                 </div>
                 <div className="item-content">
                   <h5 className="item-title mbr-fonts-style display-5">
@@ -185,7 +185,7 @@ export default function Home() {
             <div className="item features-image col-12 col-md-6 col-lg-3">
               <div className="item-wrapper">
                 <div className="item-img">
-                  <Image src="/assets/images/scoop-mockups-9.png" alt="Mobirise Website Builder" data-slide-to="3" data-bs-slide-to="3"/>
+                  <img src="/assets/images/scoop-mockups-9.png" alt="Mobirise Website Builder" data-slide-to="3" data-bs-slide-to="3"/>
                 </div>
                 <div className="item-content">
                   <h5 className="item-title mbr-fonts-style display-5">
