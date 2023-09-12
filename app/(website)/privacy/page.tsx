@@ -5,14 +5,8 @@ export default function Home() {
   return (
     <>
       <Nav />
-      <section>
+      <section style={{paddingTop: '150px'}}>
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
             <h1><strong>PRIVACY NOTICE</strong></h1>
             <p><strong>Last updated July 03, 2022</strong></p>
             <p>This privacy notice for Facets LLC (doing business as Facets) (“<strong>Facets</strong>,” “<strong>we</strong>,” “<strong>us</strong>,” or “<strong>our</strong>“), describes how and why we might collect, store, use, and/or share (“<strong>process</strong>“) your information when you use our services (“<strong>Services</strong>“), such as when you:</p>
