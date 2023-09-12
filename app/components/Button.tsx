@@ -10,13 +10,13 @@ const classes = {
 function Button({
   children,
   onClick,
-  color,
+  color = 'white',
   className,
 }: {
   children: React.ReactNode;
   onClick: () => void;
   color: unknown;
-  className: string;
+  className: string | undefined;
 }) {
   return (
     //@ts-ignore
