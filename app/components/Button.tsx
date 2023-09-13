@@ -15,8 +15,8 @@ function Button({
 }: {
   children: React.ReactNode;
   onClick: () => void;
-  color: unknown;
-  className: string | undefined;
+  color?: unknown;
+  className?: string;
 }) {
   return (
     //@ts-ignore
