@@ -1,9 +1,9 @@
 import * as React from 'react';
-const FacetsLogoWithText = (props: object) => (
+const FacetsLogoWithText = ({ width }: { width: number }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 208.97 233.65"
-    {...props}
+    width={width}
   >
     <defs>
       <linearGradient
