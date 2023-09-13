@@ -37,3 +37,6 @@ uses assets in `public/assets`
 
 ## App
 Starts in `src/app` uses tailwind for css
+
+azure token
+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
