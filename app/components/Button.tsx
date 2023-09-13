@@ -1,5 +1,7 @@
 'use client';
 
+type ButtonColors = 'white' | 'teal' | 'transparent';
+
 const classes = {
   white:
     'bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded-full shadow w-full',
@@ -15,7 +17,7 @@ function Button({
 }: {
   children: React.ReactNode;
   onClick: () => void;
-  color?: unknown;
+  color?: ButtonColors;
   className?: string;
 }) {
   return (
