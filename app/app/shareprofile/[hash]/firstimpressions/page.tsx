@@ -11,21 +11,20 @@ export default function Page({ params }: { params: { hash: string } }) {
       <div className="bg-gradient"></div>
       <div className="text-white text-lg text-center">
         <h4>First Impressions</h4>
-        <p>What does this profile say about 
-me? Select 3</p>
-
-        Name (optional)
-let them know who’s helping them
+        <p>What does this profile say about me? Select 3</p>
+        Name (optional) let them know who’s helping them
       </div>
-      <div className="w-full max-w-xs flex-row">
-        <div className="items-center m-5">
-          <Button
-            color={'white'}
-            className="max-w-xs" 
-            onClick={() => router.push('/app/shareprofile/[hash]/godeeper')}
-          >
-            Continue 3/3
-          </Button>
+      <div className="mx-auto w-full fixed bottom-0">
+        <div className="max-w-xs mx-auto">
+          <div className="mb-5 ">
+            <Button
+              color={'white'}
+              className="max-w-xs"
+              onClick={() => router.push('/app/shareprofile/[hash]/godeeper')}
+            >
+              Continue 3/3
+            </Button>
+          </div>
         </div>
       </div>
     </>
