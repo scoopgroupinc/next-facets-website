@@ -16,7 +16,7 @@ export default function Home() {
                   width={848}
                   height={565.33}
                   src="/assets/images/10.jpg"
-                  alt="Mobirise Website Builder"
+                  alt="Facets Singles Wellness App"
                 />
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Home() {
                 <div className="image-wrap">
                   <img
                     src="/assets/images/facets-horizontal.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                   />
                   <div className="title-row display-7">
                     <h5 className="card-title1 mbr-fonts-style align-left m-0 display-2">
@@ -126,7 +126,7 @@ export default function Home() {
                 <div className="image-wrap">
                   <img
                     src="/assets/images/facets-horizontal-1.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                   />
                   <div className="title-row display-7">
                     <h5 className="card-title4 mbr-fonts-style align-left m-0 display-2">

@@ -40,7 +40,7 @@ export default function Home() {
                   <img
                     className="p-2"
                     src="/assets/images/1-1.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                   />
                 </div>
               </div>
@@ -51,7 +51,7 @@ export default function Home() {
                   <img
                     className="p-2"
                     src="/assets/images/3.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                   />
                 </div>
               </div>
@@ -62,7 +62,7 @@ export default function Home() {
                   <img
                     className="p-2"
                     src="/assets/images/scoop-mockups-8.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                   />
                 </div>
               </div>
@@ -73,7 +73,7 @@ export default function Home() {
                   <img
                     className="p-2"
                     src="/assets/images/scoop-mockups-7.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                     title=""
                   />
                 </div>
@@ -90,7 +90,7 @@ export default function Home() {
               <img
                 className="w-100"
                 src="/assets/images/scoop-mockups-2.png"
-                alt="Mobirise Website Builder"
+                alt="Facets Singles Wellness App"
               />
             </div>
             <div className="col-12 col-md-12 col-lg">
@@ -124,7 +124,7 @@ export default function Home() {
               <img
                 className="w-100"
                 src="/assets/images/5.png"
-                alt="Mobirise Website Builder"
+                alt="Facets Singles Wellness App"
               />
             </div>
             <div className="col-12 col-md-12 col-lg">
@@ -151,7 +151,7 @@ export default function Home() {
                 <img
                   className="w-100"
                   src="/assets/images/scoop-mockups.png"
-                  alt="Mobirise Website Builder"
+                  alt="Facets Singles Wellness App"
                 />
               </div>
             </div>
