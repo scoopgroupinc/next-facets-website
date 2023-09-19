@@ -79,10 +79,7 @@ export default function Nav() {
             </ul>
 
             <div className="navbar-buttons mbr-section-btn">
-              <Link
-                className="btn btn-primary display-4"
-                href="/waitlist"
-              >
+              <Link className="btn btn-primary display-4" href="/waitlist">
                 Waitlist
               </Link>
             </div>

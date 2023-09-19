@@ -28,7 +28,8 @@ export default function Home() {
               <strong>We&#39;re Facets</strong>
               <br />
               <span className="mbr-text mbr-fonts-style mb-4 display-7">
-                A wellness app designed for singles to embark on a journey of self-discovery and mutual growth while dating.
+                A wellness app designed for singles to embark on a journey of
+                self-discovery and mutual growth while dating.
               </span>
             </h1>
           </div>
@@ -165,10 +166,7 @@ export default function Home() {
                   humans.
                 </p>
                 <div className="mbr-section-btn align-left mt-3">
-                  <Link
-                    className="btn btn-primary display-7"
-                    href="https://forms.gle/RkxRxAJQTJZLVKeF7"
-                  >
+                  <Link className="btn btn-primary display-7" href="/waitlist">
                     Join the waitlist
                   </Link>
                 </div>

@@ -42,15 +42,12 @@ function Footer() {
           <div className="row social-row">
             <div className="social-list align-right pb-2">
               <div className="soc-item">
-                <Link
-                  href="https://www.facebook.com/scooploveapp/"
-                  target="_blank"
-                >
+                <Link href="https://www.facebook.com/scooploveapp/">
                   <span className="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
                 </Link>
               </div>
               <div className="soc-item">
-                <Link href="https://instagram.com/scooploveapp" target="_blank">
+                <Link href="https://instagram.com/scooploveapp">
                   <span className="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
                 </Link>
               </div>
