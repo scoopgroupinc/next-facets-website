@@ -13,7 +13,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Facets Authentic & Mindful Dating',
   description:
-    "Find true love. We combine the latest research, psychologist experience, and people's feedback to help you build strong and deeper connections.",
+    "Find true love. We are a wellness app for singles navigating the dating space. We combine the latest research & psychology to help people build stronger and deeper connections.",
 };
 
 export default function RootLayout({
