@@ -32,6 +32,11 @@ function Footer() {
                   Terms
                 </Link>
               </li>
+              <li className="foot-menu-item mbr-fonts-style display-7">
+                <Link href="/waitlist" className="text-primary">
+                  Waitlist
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="row social-row">
