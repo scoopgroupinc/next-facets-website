@@ -166,10 +166,7 @@ export default function Home() {
               </h3>
 
               <div className="mbr-section-btn">
-                <Link
-                  className="btn btn-primary display-4"
-                  href="https://forms.gle/RkxRxAJQTJZLVKeF7"
-                >
+                <Link className="btn btn-primary display-4" href="/waitlist">
                   Join the Waitlist
                 </Link>
               </div>
