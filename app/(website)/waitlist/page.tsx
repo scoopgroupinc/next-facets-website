@@ -6,8 +6,8 @@ export default function Waitlist() {
       width="640"
       height="2984"
       frameBorder="0"
-      marginHeight="0"
-      marginWidth="0"
+      marginHeight={0}
+      marginWidth={0}
     >
       Loading…
     </iframe>
