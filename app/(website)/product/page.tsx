@@ -50,7 +50,7 @@ export default function Home() {
               <div className="image-wrapper">
                 <img
                   src="/assets/images/untitled-design.png"
-                  alt="Mobirise Website Builder"
+                  alt="Facets Singles Wellness App"
                 />
               </div>
             </div>
@@ -73,7 +73,7 @@ export default function Home() {
                 <div className="item-img mb-3">
                   <img
                     src="/assets/images/26.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                     title=""
                     data-slide-to="1"
                     data-bs-slide-to="1"
@@ -96,7 +96,7 @@ export default function Home() {
                 <div className="item-img mb-3">
                   <img
                     src="/assets/images/27.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                     title=""
                     data-slide-to="2"
                     data-bs-slide-to="2"
@@ -118,7 +118,7 @@ export default function Home() {
                 <div className="item-img mb-3">
                   <img
                     src="/assets/images/scoop-mockups-12.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                     title=""
                     data-slide-to="3"
                     data-bs-slide-to="3"
@@ -141,7 +141,7 @@ export default function Home() {
                 <div className="item-img mb-3">
                   <img
                     src="/assets/images/29.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                     title=""
                     data-slide-to="5"
                     data-bs-slide-to="5"
@@ -212,7 +212,7 @@ export default function Home() {
                 <div className="item-img">
                   <img
                     src="/assets/images/scoop-mockups-10.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                     data-slide-to="0"
                     data-bs-slide-to="0"
                   />
@@ -235,7 +235,7 @@ export default function Home() {
                 <div className="item-img">
                   <img
                     src="/assets/images/scoop-mockups-11.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                     data-slide-to="1"
                     data-bs-slide-to="1"
                   />
@@ -259,7 +259,7 @@ export default function Home() {
                 <div className="item-img">
                   <img
                     src="/assets/images/10.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                     data-slide-to="2"
                     data-bs-slide-to="2"
                   />
@@ -284,7 +284,7 @@ export default function Home() {
                 <div className="item-img">
                   <img
                     src="/assets/images/scoop-mockups-9.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                     data-slide-to="3"
                     data-bs-slide-to="3"
                   />

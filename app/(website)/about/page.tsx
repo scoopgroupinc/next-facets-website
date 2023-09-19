@@ -19,7 +19,7 @@ export default function About() {
                 height={409.5}
                 className="w-100"
                 src="/assets/images/facets-horizontal-2.png"
-                alt="Mobirise Website Builder"
+                alt="Facets Singles Wellness App"
               />
             </div>
           </div>
