@@ -53,7 +53,7 @@ function Footer() {
           </div>
           <div className="row row-copirayt">
             <p className="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
-              © Copyright 2023 Facets. All Rights Reserved.
+              © Copyright 2023 Facets™. All Rights Reserved.
             </p>
           </div>
         </div>

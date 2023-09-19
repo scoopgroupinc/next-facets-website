@@ -28,8 +28,7 @@ export default function Home() {
               <strong>We&#39;re Facets</strong>
               <br />
               <span className="mbr-text mbr-fonts-style mb-4 display-7">
-                A wellness app for singles to learn about themselves, each
-                other, and to grow together.
+                A wellness app designed for singles to embark on a journey of self-discovery and mutual growth while dating.
               </span>
             </h1>
           </div>
