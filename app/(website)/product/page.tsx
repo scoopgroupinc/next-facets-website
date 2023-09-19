@@ -21,9 +21,9 @@ export default function Home() {
             <div className="col-12 col-lg">
               <div className="card-wrapper">
                 <div className="card-box">
-                  <h4 className="card-title mbr-fonts-style mb-4 display-2">
+                  <h1 className="card-title mbr-fonts-style mb-4 display-2">
                     <strong>Embrace Your Facets</strong>
-                  </h4>
+                  </h1>
                   <p className="mbr-text mbr-fonts-style mb-4 display-7">
                     Discover your super powers and become aware of your blind
                     spots.
@@ -169,9 +169,9 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="content-wrap col-12 col-md-8">
-              <h1 className="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
+              <h2 className="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
                 <strong>Mindful Dating</strong>
-              </h1>
+              </h2>
 
               <p className="mbr-fonts-style mbr-text mbr-white mb-4 display-7">
                 Reduce burnout and anxiety with our carefully crafted
@@ -318,11 +318,11 @@ export default function Home() {
         <div className="align-center container">
           <div className="row justify-content-center">
             <div className="col-12 col-lg-8">
-              <h3 className="mbr-section-title mb-4 mbr-fonts-style display-1">
+              <h5 className="mbr-section-title mb-4 mbr-fonts-style display-1">
                 <strong>We do the research </strong>
                 <br />
                 <strong>for you.</strong>
-              </h3>
+              </h5>
 
               <div className="mbr-section-btn">
                 <Link className="btn btn-white display-4" href="/about#info1-i">

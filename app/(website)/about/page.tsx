@@ -14,7 +14,7 @@ export default function About() {
         <div className="text-center container">
           <div className="row mb-4 justify-content-center">
             <div className="col-12 col-md-8">
-              <Image
+              <img
                 width={728}
                 height={409.5}
                 className="w-100"
@@ -26,6 +26,8 @@ export default function About() {
           <div className="row justify-content-center">
             <div className="col-md-12 content-head">
               <h1 className="mbr-section-title mbr-fonts-style mb-4 display-1">
+                <strong>At Facets</strong>
+                <br />
                 <strong>We Want You to </strong>
                 <br />
                 <strong>Find True Love</strong>
@@ -72,7 +74,7 @@ export default function About() {
                   <div className="user">
                     <div className="user_image">
                       <div className="item-wrapper position-relative">
-                        <Image
+                        <img
                           width={200}
                           height={200}
                           src="/assets/images/natalie-pan.png"
@@ -107,7 +109,7 @@ export default function About() {
                   <div className="user">
                     <div className="user_image">
                       <div className="item-wrapper position-relative">
-                        <Image
+                        <img
                           width={200}
                           height={200}
                           src="/assets/images/caroarriagaphoto.png"
@@ -140,7 +142,7 @@ export default function About() {
                   <div className="user">
                     <div className="user_image">
                       <div className="item-wrapper position-relative">
-                        <Image
+                        <img
                           width={200}
                           height={200}
                           src="/assets/images/img-9264.jpeg"

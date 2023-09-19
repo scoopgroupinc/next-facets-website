@@ -12,7 +12,7 @@ export default function Home() {
           <div className="row justify-content-center mb-4">
             <div className="col-12 col-lg-8">
               <div className="image-wrap">
-                <Image
+                <img
                   width={848}
                   height={565.33}
                   src="/assets/images/10.jpg"
