@@ -31,6 +31,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="vMd6_VKR6nVlLEhqn7u45kEZpG9HSAE5PEtuzdBQ8Mg" />
+      </head>
       <body className={poppins.className}>{children}</body>
       <Script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></Script>
       <Script src="/assets/smoothscroll/smooth-scroll.js"></Script>
