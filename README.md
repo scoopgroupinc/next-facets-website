@@ -40,3 +40,29 @@ Starts in `src/app` uses tailwind for css
 
 azure token
 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
+
+# webapp
+
+frontend web app to handle getting feedback from users that are not logged in
+
+Prettier Eslint Typescript setup:
+https://www.youtube.com/watch?v=kBk_367zbkQ
+Note: https://prettier.io/docs/en/integrating-with-linters.html
+Let your IDE handle formatting using prettier, and turn off formatting in your eslint. It's not recommended
+
+## Environmental Variables
+
+Note: we only use one .env file and use REACT_APP_ENV to determine which variables to read since react does not let us set NODE_ENV
+
+We are not using multiple .env files. Which would use the following:
+By default `yarn start` sets NODE_ENV='development', and `yarn build` to NODE_ENV='production', with env priority from left to right
+`yarn start`: .env.development.local, .env.local, .env.development, .env
+`yarn build`: .env.production.local, .env.local, .env.production, .env
+https://create-react-app.dev/docs adding-custom-environment-variables/
+
+
+## Pre-commit
+Note because we added in package.json scripts.postinstall: "husky install" you will not need to install husky manually.
+Else you would run `yarn husky install` to enable git hooks.
+
+.husky/pre-commit runs during every commit
