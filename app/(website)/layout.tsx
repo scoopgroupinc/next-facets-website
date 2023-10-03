@@ -7,15 +7,8 @@ import 'public/assets/web/assets/gdpr-plugin/gdpr-styles.css';
 import 'public/assets/dropdown/css/style.css';
 import 'public/assets/socicon/css/styles.css';
 import 'public/assets/theme/css/style.css';
-import '@/app/(website)/global.css';
+import 'public/assets/mobirise/css/mbr-additional.css';
 import type { Metadata } from 'next';
-import { Poppins } from 'next/font/google';
-
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  variable: '--font-poppins',
-});
 
 export const metadata: Metadata = {
   title: 'Facets Authentic & Mindful Dating',
@@ -29,8 +22,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${poppins.variable} font-sans`}>
-      <body className={`${poppins.variable} font-sans`}>{children}</body>
+    <html lang="en">
+      <body>{children}</body>
       <Script
         id="adsbygoogle-init"
         strategy="afterInteractive"
