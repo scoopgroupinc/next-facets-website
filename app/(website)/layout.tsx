@@ -1,4 +1,5 @@
 import Script from 'next/script';
+import 'public/assets/web/assets/mobirise-icons2/mobirise2.css';
 import 'public/assets/bootstrap/css/bootstrap.min.css';
 import 'public/assets/bootstrap/css/bootstrap-grid.min.css';
 import 'public/assets/bootstrap/css/bootstrap-reboot.min.css';
@@ -29,14 +30,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${poppins.variable} font-sans`}>
-      <head>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8994148854330146"
-          crossOrigin="anonymous"
-        ></Script>
-      </head>
       <body className={`${poppins.variable} font-sans`}>{children}</body>
+      <Script
+        id="adsbygoogle-init"
+        strategy="afterInteractive"
+        crossOrigin="anonymous"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8994148854330146"
+      />
       <Script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></Script>
       <Script src="/assets/smoothscroll/smooth-scroll.js"></Script>
       <Script src="/assets/ytplayer/index.js"></Script>

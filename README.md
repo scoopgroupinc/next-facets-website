@@ -3,9 +3,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 Download node_modules
-```npm install```
+`npm install`
 
 Run the development server:
+
 ```bash
 npm run dev
 ```
@@ -31,16 +32,16 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## Website
 
-## Website 
 uses assets in `public/assets`
 
 ## App
+
 Starts in `src/app` uses tailwind for css
 
 azure token
 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
-
 
 # webapp
 
@@ -61,9 +62,13 @@ By default `yarn start` sets NODE_ENV='development', and `yarn build` to NODE_EN
 `yarn build`: .env.production.local, .env.local, .env.production, .env
 https://create-react-app.dev/docs adding-custom-environment-variables/
 
-
 ## Pre-commit
+
 Note because we added in package.json scripts.postinstall: "husky install" you will not need to install husky manually.
 Else you would run `yarn husky install` to enable git hooks.
 
 .husky/pre-commit runs during every commit
+
+## AdSense Tutorial
+
+https://www.mridul.tech/blogs/how-to-add-google-adsense-in-next-js
