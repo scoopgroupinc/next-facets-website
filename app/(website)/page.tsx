@@ -1,5 +1,5 @@
-import Nav from '../components/website/Nav';
-import Footer from '../components/website/Footer';
+import Nav from '@/app/components/Nav';
+import Footer from '@/app/components/Footer';
 import Link from 'next/link';
 
 export default function Home() {
