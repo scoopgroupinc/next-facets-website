@@ -43,14 +43,17 @@ function Footer() {
             <div className="social-list align-right pb-2">
               <div className="soc-item">
                 <Link
-                  href="https://www.facebook.com/scooploveapp/"
+                  href="https://www.facebook.com/facetsdatebetter/"
                   target="_blank"
                 >
                   <span className="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
                 </Link>
               </div>
               <div className="soc-item">
-                <Link href="https://instagram.com/scooploveapp" target="_blank">
+                <Link
+                  href="https://www.instagram.com/facets.date.better"
+                  target="_blank"
+                >
                   <span className="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
                 </Link>
               </div>
