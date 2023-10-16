@@ -13,9 +13,9 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="content-wrap col-12 col-md-8">
-              <h1 className="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
+              <h2 className="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
                 <strong>True Love Starts with Understanding</strong>
-              </h1>
+              </h2>
             </div>
           </div>
         </div>
@@ -24,9 +24,14 @@ export default function Home() {
       <section className="gallery1 cid-tOVG061nSP" id="gallery1-b">
         <div className="container">
           <div className="mbr-section-head">
-            <h4 className="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+            <h1 className="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
               <strong>We&#39;re Facets</strong>
-            </h4>
+              <br />
+              <span className="mbr-text mbr-fonts-style mb-4 display-7">
+                A wellness app designed for singles to embark on a journey of
+                self-discovery and mutual growth while dating.
+              </span>
+            </h1>
           </div>
           <div className="row mt-4">
             <div className="item features-image сol-12 col-md-6 col-lg-6">
@@ -35,7 +40,7 @@ export default function Home() {
                   <img
                     className="p-2"
                     src="/assets/images/1-1.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                   />
                 </div>
               </div>
@@ -46,7 +51,7 @@ export default function Home() {
                   <img
                     className="p-2"
                     src="/assets/images/3.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                   />
                 </div>
               </div>
@@ -57,7 +62,7 @@ export default function Home() {
                   <img
                     className="p-2"
                     src="/assets/images/scoop-mockups-8.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                   />
                 </div>
               </div>
@@ -68,7 +73,7 @@ export default function Home() {
                   <img
                     className="p-2"
                     src="/assets/images/scoop-mockups-7.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                     title=""
                   />
                 </div>
@@ -85,14 +90,14 @@ export default function Home() {
               <img
                 className="w-100"
                 src="/assets/images/scoop-mockups-2.png"
-                alt="Mobirise Website Builder"
+                alt="Facets Singles Wellness App"
               />
             </div>
             <div className="col-12 col-md-12 col-lg">
               <div className="text-wrapper align-left">
-                <h1 className="mbr-section-title mbr-fonts-style mb-4 display-2">
+                <h3 className="mbr-section-title mbr-fonts-style mb-4 display-2">
                   <strong>Relationships Start From Within</strong>
-                </h1>
+                </h3>
                 <p className="mbr-text mbr-fonts-style mb-4 display-7">
                   Be part of a giving community that&#39;s vulnerable and open
                   to accepting their whole selves first (yes, with all your
@@ -119,14 +124,14 @@ export default function Home() {
               <img
                 className="w-100"
                 src="/assets/images/5.png"
-                alt="Mobirise Website Builder"
+                alt="Facets Singles Wellness App"
               />
             </div>
             <div className="col-12 col-md-12 col-lg">
               <div className="text-wrapper align-left">
-                <h1 className="mbr-section-title mbr-fonts-style mb-4 display-2">
+                <h3 className="mbr-section-title mbr-fonts-style mb-4 display-2">
                   <strong>Show Your Facets.</strong>
-                </h1>
+                </h3>
                 <p className="mbr-text align-left mbr-fonts-style mb-4 display-7">
                   Let your true colors shine by getting feedback from friends,
                   dates, or people on our community. You&#39;ll be surprised
@@ -146,25 +151,22 @@ export default function Home() {
                 <img
                   className="w-100"
                   src="/assets/images/scoop-mockups.png"
-                  alt="Mobirise Website Builder"
+                  alt="Facets Singles Wellness App"
                 />
               </div>
             </div>
             <div className="col-12 col-md-12 col-lg">
               <div className="text-wrapper align-left">
-                <h1 className="mbr-section-title mbr-fonts-style mb-4 display-2">
+                <h3 className="mbr-section-title mbr-fonts-style mb-4 display-2">
                   <strong>Your Unique Journey to Love Begins Here</strong>
-                </h1>
+                </h3>
                 <p className="mbr-text align-left mbr-fonts-style mb-4 display-7">
                   Show your facets to the world and unveil your true personality
                   on your dating profile: no more molds, only beautiful round
                   humans.
                 </p>
                 <div className="mbr-section-btn align-left mt-3">
-                  <Link
-                    className="btn btn-primary display-7"
-                    href="https://forms.gle/RkxRxAJQTJZLVKeF7"
-                  >
+                  <Link className="btn btn-primary display-7" href="/waitlist">
                     Join the waitlist
                   </Link>
                 </div>
@@ -194,9 +196,9 @@ export default function Home() {
                   </div>
                   <div className="col-12 col-lg col-md-12">
                     <div className="text-wrapper align-left">
-                      <h1 className="mbr-section-title mbr-fonts-style mb-4 display-2">
+                      <h3 className="mbr-section-title mbr-fonts-style mb-4 display-2">
                         <strong>Our Values</strong>
-                      </h1>
+                      </h3>
                       <p className="mbr-text mbr-fonts-style mb-4 display-7">
                         A long friendship or the first glance to your date can
                         spark a romantic connection. We help you nurture it.

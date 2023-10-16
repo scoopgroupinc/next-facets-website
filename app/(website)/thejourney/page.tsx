@@ -12,11 +12,11 @@ export default function Home() {
           <div className="row justify-content-center mb-4">
             <div className="col-12 col-lg-8">
               <div className="image-wrap">
-                <Image
+                <img
                   width={848}
                   height={565.33}
                   src="/assets/images/10.jpg"
-                  alt="Mobirise Website Builder"
+                  alt="Facets Singles Wellness App"
                 />
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Home() {
                 <div className="image-wrap">
                   <img
                     src="/assets/images/facets-horizontal.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                   />
                   <div className="title-row display-7">
                     <h5 className="card-title1 mbr-fonts-style align-left m-0 display-2">
@@ -126,7 +126,7 @@ export default function Home() {
                 <div className="image-wrap">
                   <img
                     src="/assets/images/facets-horizontal-1.png"
-                    alt="Mobirise Website Builder"
+                    alt="Facets Singles Wellness App"
                   />
                   <div className="title-row display-7">
                     <h5 className="card-title4 mbr-fonts-style align-left m-0 display-2">
@@ -166,10 +166,7 @@ export default function Home() {
               </h3>
 
               <div className="mbr-section-btn">
-                <Link
-                  className="btn btn-primary display-4"
-                  href="https://forms.gle/RkxRxAJQTJZLVKeF7"
-                >
+                <Link className="btn btn-primary display-4" href="/waitlist">
                   Join the Waitlist
                 </Link>
               </div>
