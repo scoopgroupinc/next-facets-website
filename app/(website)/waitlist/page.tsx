@@ -1,5 +1,5 @@
-import Footer from '@/app/components/website/Footer';
-import Nav from '@/app/components/website/Nav';
+import Footer from '@/app/components/Footer';
+import Nav from '@/app/components/Nav';
 
 export default function Waitlist() {
   // note sourced from https://docs.google.com/forms/d/1SeIMGNDFm3PwOb7VLHifNarrEcyOylmIMNESZQSfvII/edit
