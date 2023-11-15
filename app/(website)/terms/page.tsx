@@ -266,12 +266,13 @@ export default function Home() {
           <h2 id="freetrial">
             <strong>6. FREE TRIAL</strong>
           </h2>
-          <p>
+          <p>Currently our app is free of use for unknown period.</p>
+          {/* <p>
             We offer a __________-day free trial to new users who register with
             the Site. The account will not be charged and the subscription will
             be suspended until upgraded to a paid version at the end of the free
             trial.
-          </p>
+          </p> */}
           <h2 id="cancel">
             <strong>7. CANCELLATION</strong>
           </h2>
@@ -282,7 +283,7 @@ export default function Home() {
           </p>
           <p>
             If you are unsatisfied with our services, please email us at
-            admin@facets.one or call us at +1(415)4108511.
+            admin@facets.one.
           </p>
           <h2 id="prohibited">
             <strong>8. PROHIBITED ACTIVITIES</strong>
@@ -1260,7 +1261,7 @@ export default function Home() {
             further information regarding use of the Site, please contact us at:
           </p>
           <p>
-            <strong>Facets LLC</strong>
+            <strong>Scoop LLC</strong>
           </p>
           <p>
             <strong>5432 Geary Blvd</strong>
@@ -1273,9 +1274,6 @@ export default function Home() {
           </p>
           <p>
             <strong>United States</strong>
-          </p>
-          <p>
-            <strong>Phone: +1(415)4108511</strong>
           </p>
           <p>
             <strong>admin@facets.one</strong>
