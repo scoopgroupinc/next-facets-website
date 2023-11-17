@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -42,19 +42,21 @@ function Footer() {
           <div className="row social-row">
             <div className="social-list align-right pb-2">
               <div className="soc-item">
-                <Link
-                  href="https://www.facebook.com/facetsmindfuldating/"
-                  target="_blank"
-                >
+                <Link href="https://www.facebook.com/facetsmindfuldating/" target="_blank">
                   <span className="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
                 </Link>
               </div>
               <div className="soc-item">
+                <Link href="https://www.instagram.com/facets.mindful.dating/" target="_blank">
+                  <span className="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                </Link>
+              </div>
+              <div className="soc-item">
                 <Link
-                  href="https://www.instagram.com/facets.mindful.dating/"
+                  href="https://www.tiktok.com/@facets.mindfuldating?is_from_webapp=1&sender_device=pc"
                   target="_blank"
                 >
-                  <span className="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                  <span className="socicon-tiktok socicon mbr-iconfont mbr-iconfont-social"></span>
                 </Link>
               </div>
             </div>

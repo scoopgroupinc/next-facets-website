@@ -1,0 +1,20 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["YL98TK49UQ.com.facets.one"],
+        "components": [{
+                "/": "/app/*",
+                "comment": "Matches any URL whose path starts with /app/"
+        }]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": ["YL98TK49UQ.com.facets.one"]
+  },
+  "webcredentials": {
+    "apps": ["YL98TK49UQ.com.facets.one"]
+  }
+}
