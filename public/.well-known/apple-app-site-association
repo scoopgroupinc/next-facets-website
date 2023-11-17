@@ -5,8 +5,8 @@
       {
         "appIDs": ["YL98TK49UQ.com.facets.one"],
         "components": [{
-                "/": "/app/*",
-                "comment": "Matches any URL whose path starts with /app/"
+                "/": "/*",
+                "comment": "Matches any URL whose path starts with /"
         }]
       }
     ]
