@@ -1,4 +1,5 @@
 import Script from 'next/script';
+import Head from 'next/head';
 import 'public/assets/web/assets/mobirise-icons2/mobirise2.css';
 import 'public/assets/bootstrap/css/bootstrap.min.css';
 import 'public/assets/bootstrap/css/bootstrap-grid.min.css';
@@ -22,21 +23,31 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-      <Script
-        id="adsbygoogle-init"
-        strategy="afterInteractive"
-        crossOrigin="anonymous"
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8994148854330146"
-      />
-      <Script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></Script>
-      <Script src="/assets/smoothscroll/smooth-scroll.js"></Script>
-      <Script src="/assets/ytplayer/index.js"></Script>
-      <Script src="/assets/dropdown/js/navbar-dropdown.js"></Script>
-      <Script src="/assets/embla/embla.min.js"></Script>
-      <Script src="/assets/embla/script.js"></Script>
-      <Script src="/assets/theme/js/Script.js"></Script>
-    </html>
+    <>
+      <Head>
+        <script dangerouslySetInnerHTML={{ __html: `
+          !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="YOUR_WRITE_KEY";analytics.SNIPPET_VERSION="4.15.2";
+          analytics.load("XJz0zyd78BLKvCM2qPTq0pGE775JgOlh");
+          analytics.page();
+          }}();
+        ` }} />
+      </Head>
+      <body>
+        {children}
+        <Script
+          id="adsbygoogle-init"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8994148854330146"
+        />
+        <Script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></Script>
+        <Script src="/assets/smoothscroll/smooth-scroll.js"></Script>
+        <Script src="/assets/ytplayer/index.js"></Script>
+        <Script src="/assets/dropdown/js/navbar-dropdown.js"></Script>
+        <Script src="/assets/embla/embla.min.js"></Script>
+        <Script src="/assets/embla/script.js"></Script>
+        <Script src="/assets/theme/js/Script.js"></Script>
+      </body>
+    </>
   );
 }
