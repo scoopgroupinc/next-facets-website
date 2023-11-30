@@ -15,8 +15,8 @@ export default function Nav() {
             <span className="navbar-logo">
               <Link href="/">
                 <Image
-                  width={50}
-                  height={50}
+                  width={80}
+                  height={80}
                   src="/assets/images/facets-logo.png"
                   alt="Facets Logo"
                 />
