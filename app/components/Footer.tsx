@@ -4,6 +4,9 @@ function Footer() {
   return (
     <section className="footer3 cid-tOWHoKY82E" id="footer3-r">
       <div className="container">
+        <div className="navbar-caption text-white display-7 align-center mb-4">
+          <a href="mailto:support@facets.one">Get in touch</a>
+        </div>
         <div className="media-container-row align-center mbr-white">
           <div className="row row-links">
             <ul className="foot-menu">
