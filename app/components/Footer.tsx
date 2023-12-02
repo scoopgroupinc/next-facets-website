@@ -40,11 +40,6 @@ function Footer() {
                   Waitlist
                 </Link>
               </li>
-              <li className="foot-menu-item mbr-fonts-style display-7">
-                <Link href="mailto:support@facets.one" className="text-primary">
-                  Contact Us
-                </Link>
-              </li>
             </ul>
           </div>
           <div className="row social-row">
