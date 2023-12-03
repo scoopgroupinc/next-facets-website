@@ -15,12 +15,9 @@ export const metadata: Metadata = {
   title: "Facets Authentic & Mindful Dating",
   description:
     "Find true love. We are a wellness app for singles navigating the dating space. We combine the latest research & psychology to help people build stronger and deeper connections.",
-  appLinks: {
-    ios: {
-      url: "https://apps.apple.com/us/app/facets-mindful-dating",
-      app_store_id: "1578651315",
-      app_name: "Facets",
-    },
+
+  itunes: {
+    appId: "1578651315",
   },
 };
 
