@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "Find true love. We are a wellness app for singles navigating the dating space. We combine the latest research & psychology to help people build stronger and deeper connections.",
 
   itunes: {
-    appId: "1578651315",
+    appId: "6472248886",
   },
 };
 
