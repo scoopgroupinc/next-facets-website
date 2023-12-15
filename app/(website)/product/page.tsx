@@ -36,12 +36,12 @@ export default function Home() {
                     </ul>
                   </div>
                   <div className="mbr-section-btn mb-4">
-                    <Link
-                      className="btn btn-primary display-4"
-                      href="/waitlist"
-                    >
-                      Join the waitlist
-                    </Link>
+                      <Link
+                        className="btn btn-primary display-4"
+                        href="/waitlist"
+                      >
+                        Join the waitlist
+                      </Link>
                   </div>
                 </div>
               </div>

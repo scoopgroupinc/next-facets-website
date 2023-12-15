@@ -76,6 +76,14 @@ export default function Nav() {
                   About Us
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link link text-black text-primary display-4"
+                  href="/support"
+                >
+                  Support
+                </Link>
+              </li>
             </ul>
 
             <div className="navbar-buttons mbr-section-btn">
