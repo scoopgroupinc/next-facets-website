@@ -22,7 +22,7 @@ export default function Support() {
                 Is something not working as expected?
                 <br/>
                 <br/>
-                Send an email to our support team and we'll
+                Send an email to our support team and we&#39;ll
                 get back at you within 2 business days.
                 <br/>
                 <br/>
@@ -32,7 +32,7 @@ export default function Support() {
                       href="mailto:support@facets.one"
                     >
                       support@facets.one
-                    </Link>
+                </Link>
               </p>
             </div>
           </div>
