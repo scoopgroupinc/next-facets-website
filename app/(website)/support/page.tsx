@@ -26,13 +26,14 @@ export default function Support() {
                 get back at you within 2 business days.
                 <br/>
                 <br/>
-                
-                <Link
-                      className="btn btn-primary display-4"
-                      href="mailto:support@facets.one"
-                    >
-                      support@facets.one
-                </Link>
+                <div className="mbr-section-btn mb-4">
+                  <Link
+                        className="btn btn-primary display-4"
+                        href="mailto:support@facets.one"
+                      >
+                        Send Us an Email
+                  </Link>
+                </div>
               </p>
             </div>
           </div>

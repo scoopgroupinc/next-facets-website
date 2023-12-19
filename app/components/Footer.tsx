@@ -5,7 +5,14 @@ function Footer() {
     <section className="footer3 cid-tOWHoKY82E" id="footer3-r">
       <div className="container">
         <div className="navbar-caption text-white display-7 align-center mb-4">
-          <a href="mailto:support@facets.one">Get in touch</a>
+          <div className="mbr-section-btn mb-4">
+            <Link
+              className="btn btn-primary display-4"
+              href="mailto:support@facets.one"
+            >
+              Stay in Touch
+            </Link>
+          </div>
         </div>
         <div className="media-container-row align-center mbr-white">
           <div className="row row-links">
